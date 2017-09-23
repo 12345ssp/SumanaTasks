@@ -8,8 +8,8 @@ public class DrawingApp {
 
 	public static void main(String[] args) {
 		//Traingle traingle= new Traingle();
-		  BeanFactory factory= new XmlBeanFactory(new FileSystemResource("Spring.xml"));
-		Traingle traingle= (Traingle) factory.getBean("traingle");
+		   BeanFactory factory= new XmlBeanFactory(new FileSystemResource("Spring.xml"));
+		     Traingle traingle= (Traingle) factory.getBean("traingle");
 		traingle.draw();
 
 	}
